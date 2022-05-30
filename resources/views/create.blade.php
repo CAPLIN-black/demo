@@ -93,6 +93,16 @@
                 <option>Movie</option>
                 <option>Anime</option>
               </select>
+            </div>
+            <div class="form-group">
+              <label for="">Genre</label>
+              <select class="form-control" name="genre">
+                <option>Action</option>
+                <option>Horror</option>
+                <option>Fantasy</option>
+                <option>Thriller</option>
+              </select>
+            </div>
             <div class="form-group">
               <label for="">Gambar</label>
               <input type="file" class="form-control" name="gambar">

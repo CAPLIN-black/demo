@@ -15,12 +15,14 @@ class CreateMoviesTable extends Migration
     {
         Schema::create('movies', function (Blueprint $table) {
             $table->id();
+            // $table->foreignId('kategori_id');
             $table->string('judul');
             $table->string('sutradara');
             $table->string('rating');
             $table->string('durasi');
             $table->string('sinopsis');
             $table->string('kategori');
+            $table->string('genre');
             $table->string('gambar');
 
             $table->timestamps();

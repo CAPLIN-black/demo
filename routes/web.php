@@ -23,6 +23,8 @@ Route::get('/page/{id}', 'PageController@page')->name('page');
 
 Route::post('/film', 'HomeController@film');
 
+Route::get('/movie', 'HomeController@movie');
+
 
 
 
